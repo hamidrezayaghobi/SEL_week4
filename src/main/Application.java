@@ -1,4 +1,9 @@
 package main;
+import main.Delivery.DeliveryContext;
+import main.Delivery.States.DeliveredState;
+import main.Delivery.States.InTransitState;
+import main.Delivery.Strategies.ExpressDelivery;
+import main.Delivery.Strategies.StandardDelivery;
 
 import java.util.Scanner;
 
@@ -37,6 +42,7 @@ public class Application {
         }
 
         scanner.close();
-        System.out.println("Program ended. Package delivered.");
+        double finalPrice = context.executeStrategy(weight);
+        System.out.println("Program ended. Package delivered, you must pay: " + finalPrice);
     }
 }
