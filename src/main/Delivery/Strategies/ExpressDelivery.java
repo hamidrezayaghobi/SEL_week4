@@ -1,4 +1,4 @@
-package main;
+package main.Delivery.Strategies;
 
 public class ExpressDelivery implements DeliveryStrategy {
     @Override
