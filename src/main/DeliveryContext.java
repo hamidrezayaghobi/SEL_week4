@@ -1,5 +1,7 @@
 package main;
 
+import main.Delivery.States.PackageState;
+
 public class DeliveryContext {
     private DeliveryStrategy strategy;
     private PackageState state;

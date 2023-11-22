@@ -1,4 +1,6 @@
-package main;
+package main.Delivery.States;
+
+import main.DeliveryContext;
 
 public class InTransitState implements PackageState {
     @Override
