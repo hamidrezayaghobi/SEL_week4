@@ -1,7 +1,7 @@
 package test;
 
-import main.DeliveryStrategy;
-import main.ExpressDelivery;
+import main.Delivery.Strategies.DeliveryStrategy;
+import main.Delivery.Strategies.ExpressDelivery;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

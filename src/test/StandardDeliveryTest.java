@@ -1,7 +1,7 @@
 package test;
 
-import main.DeliveryStrategy;
-import main.StandardDelivery;
+import main.Delivery.Strategies.DeliveryStrategy;
+import main.Delivery.Strategies.StandardDelivery;
 
 import org.junit.jupiter.api.Test;
 
