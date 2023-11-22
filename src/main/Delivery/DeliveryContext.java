@@ -1,4 +1,4 @@
-package main;
+package main.Delivery;
 
 import main.Delivery.States.PackageState;
 import main.Delivery.Strategies.DeliveryStrategy;

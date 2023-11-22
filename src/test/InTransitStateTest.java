@@ -1,6 +1,6 @@
 package test;
 
-import main.DeliveryContext;
+import main.Delivery.DeliveryContext;
 import main.Delivery.States.InTransitState;
 import main.Delivery.States.PackageState;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,6 @@
 package main.Delivery.States;
 
-import main.DeliveryContext;
+import main.Delivery.DeliveryContext;
 
 public class DeliveredState implements PackageState {
     @Override
